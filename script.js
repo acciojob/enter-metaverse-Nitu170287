@@ -3,8 +3,8 @@ let newString = "Entered Metaverse"
 function changeString(){
 	let para = document.getElementById("status")
 	let head = document.createElement("h1")
-	para.innerText = `${newString}`
-	head.textContent = para.textContent
+	head.innerText = `${newString}`
+	//head.textContent = para.textContent
 	para.parentNode.replaceChild(head, para);
 	// para.innerText = `${newString}`
 	// para.style.fontWeight = "bold"
