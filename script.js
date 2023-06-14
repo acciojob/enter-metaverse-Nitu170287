@@ -3,6 +3,7 @@ let newString = "Entered Metaverse"
 function changeString(){
 	let para = document.getElementById("status")
 	let head = document.createElement("h1")
+	head.id = "status"
 	head.innerText = `${newString}`
 	//head.textContent = para.textContent
 	para.parentNode.replaceChild(head, para);
